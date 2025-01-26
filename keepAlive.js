@@ -1,4 +1,4 @@
-const axios = require("axios");
+import axios from "axios";
 
 const BACKEND_URL = "https://nerist-resell-back.onrender.com/ping"; // Replace with your backend URL
 const INTERVAL = 5 * 60 * 1000; // 5 minutes in milliseconds
